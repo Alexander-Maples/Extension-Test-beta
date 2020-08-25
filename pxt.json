@@ -3,15 +3,17 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "ev3": "*"
+        "ev3": "*",
+        "extension-test": "workspace:2ecb67b1-70fb-48bf-0b3e-ac76cb957ec5"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "customblock.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": false,
-    "additionalFilePaths": []
+    "installedVersion": "workspace:2ecb67b1-70fb-48bf-0b3e-ac76cb957ec5"
 }
